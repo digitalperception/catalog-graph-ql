@@ -1,0 +1,39 @@
+{
+    "name": "digitalperception/catalog-graph-ql",
+    "authors": [
+        {
+            "name": "Digital Perception",
+            "email": "ahtsham.ulhakq@perceptiond.com"
+        }
+    ],
+    "description": "This module is an extension of module-catalog-graph-ql of magento-2.4",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "require": {
+        "php": "~7.3.0||~7.4.0",
+        "magento/module-eav": "102.1.*",
+        "magento/module-catalog": "104.0.*",
+        "magento/module-catalog-inventory": "100.4.*",
+        "magento/module-directory": "100.4.*",
+        "magento/module-search": "101.1.*",
+        "magento/module-store": "101.1.*",
+        "magento/module-eav-graph-ql": "100.4.*",
+        "magento/module-catalog-graph-ql": "100.4.*",
+        "magento/module-catalog-search": "102.0.*",
+        "magento/framework": "103.0.*",
+        "magento/module-graph-ql": "100.4.*"
+    },
+    "suggest": {
+        "magento/module-graph-ql-cache": "100.4.*",
+        "magento/module-store-graph-ql": "100.4.*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "DigitalPerception\\CatalogGraphQl\\": ""
+        }
+    }
+}
+

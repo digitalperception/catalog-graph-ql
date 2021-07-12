@@ -1,0 +1,13 @@
+interface ProductInterface {
+   custom_attributes(
+        fields: [String]
+    ): [CustomAttribute]
+    @doc(description: "Filterable attribute with Text")
+    @resolver(class: "DigitalPerception\\CatalogGraphQl\\Model\\Resolver\\Product\\CustomAttributes")
+}
+
+type CustomAttribute @doc(description: "Custom Attribute data of type select and multiselect") {
+    code: String!
+    label: String!
+    value: String
+}
