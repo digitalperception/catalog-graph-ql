@@ -1,7 +1,7 @@
 Magento 2 DigitalPerception/CatalogGraphQl Module
 ===========================================
 
-## Dynamic Attribute Text Values
+## Custom_Attribute Text Values
 
 Graphql products query returns only ids of option values for select or multiselect type attributes. 
 Implementation of this module will allow us to retrieve Text Labels of option values of an attribute in a given store language
