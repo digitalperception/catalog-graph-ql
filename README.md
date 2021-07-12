@@ -15,7 +15,7 @@ for a given product.
 
 #### Installation
     1. This module is intended to be installed using composer 
-        [ composer require "digitalerception/catalog-graph-ql" ]
+        [ composer require digitalperception/catalog-graph-ql ]
     2. Run following commands from your root Magento installation directory:
         bin/magento module:enable DigitalPerception_CatalogGraphQl
         bin/magento setup:upgrade
